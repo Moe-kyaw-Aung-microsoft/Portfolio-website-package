@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>MOE KYAW AUNG | Frontend Developer & Web Developer</title>
+
+  <meta
+    name="description"
+    content="Professional portfolio of MOE KYAW AUNG, a Frontend Developer and Web Developer building clean, responsive, and user-friendly web experiences."
+  />
+
+  <meta
+    name="keywords"
+    content="MOE KYAW AUNG, Moe Kyaw Aung, Frontend Developer, Web Developer, Portfolio, React Developer, Responsive Design, Myanmar Developer"
+  />
+
+  <meta name="author" content="MOE KYAW AUNG" />
+  <meta name="theme-color" content="#0b1020" />
+
+  <meta property="og:title" content="MOE KYAW AUNG | Frontend Developer" />
+  <meta
+    property="og:description"
+    content="Frontend Developer and Web Developer building modern, responsive, and user-focused web experiences."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/preview.png" />
+
+  <link rel="icon" href="assets/preview.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#hero" class="logo">Moe Kyaw Aung</a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#github" class="nav-link">GitHub</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-left reveal">
+          <p class="hero-label">Frontend Developer | Web Developer</p>
+
+          <h1>
+            MOE KYAW AUNG
+            <span>(မိုးကျော်အောင်)</span>
+          </h1>
+
+          <p class="hero-text">
+            I build clean, responsive, and user-friendly web experiences with a
+            strong focus on modern UI, performance, and usability.
+          </p>
+
+          <p class="typing-line">
+            I specialize in <span id="typing-text"></span>
+          </p>
+
+          <div class="hero-badges">
+            <span>Responsive Design</span>
+            <span>Modern UI</span>
+            <span>Clean Code</span>
+            <span>React</span>
+          </div>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fas fa-folder-open"></i>
+              View Projects
+            </a>
+
+            <a href="assets/resume.pdf" class="btn btn-secondary" download>
+              <i class="fas fa-download"></i>
+              Download CV
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <a
+              href="https://linkedin.com/in/moekyawaung"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-linkedin"></i>
+              LinkedIn
+            </a>
+
+            <a href="mailto:moekyawaung@techie.com">
+              <i class="fas fa-envelope"></i>
+              Email
+            </a>
+
+            <a
+              href="https://github.com/Moe-KyawAung"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-github"></i>
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-right reveal delay-1">
+          <div class="profile-card glass">
+            <div class="profile-image-wrap">
+              <img
+                src="assets/profile.jpg"
+                alt="MOE KYAW AUNG profile photo"
+                class="profile-image"
+              />
+            </div>
+
+            <div class="profile-content">
+              <h3>MOE KYAW AUNG</h3>
+              <p>Frontend Developer | Web Developer</p>
+
+              <div class="mini-stats">
+                <div>
+                  <strong>2+</strong>
+                  <span>Years Building</span>
+                </div>
+
+                <div>
+                  <strong>2</strong>
+                  <span>Main Projects</span>
+                </div>
+
+                <div>
+                  <strong>100%</strong>
+                  <span>Growth Mindset</span>
+                </div>
+              </div>
+
+              <div class="profile-meta">
+                <p>
+                  <strong>Email:</strong>
+                  moekyawaung@techie.com
+                </p>
+
+                <p>
+                  <strong>LinkedIn:</strong>
+                  linkedin.com/in/moekyawaung
+                </p>
+
+                <p>
+                  <strong>Focus:</strong>
+                  Frontend, UI, Responsive Web Design
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label">About</p>
+          <h2>About Me</h2>
+          <p>
+            A quick introduction to who I am, what I do, and what I care about as a developer.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glass reveal">
+            <p>
+              Hi, I'm <strong>MOE KYAW AUNG (မိုးကျော်အောင်)</strong>, a passionate
+              <strong>Frontend Developer</strong> and <strong>Web Developer</strong>
+              who enjoys building modern websites and interfaces that are clean,
+              responsive, and easy to use.
+            </p>
+
+            <p>
+              I focus on creating digital experiences that combine visual clarity,
+              practical functionality, and usability. I enjoy turning ideas into
+              polished products through structured code and continuous learning.
+            </p>
+          </div>
+
+          <div class="about-card glass reveal delay-1">
+            <h3>Why I Build</h3>
+
+            <ul>
+              <li>To create better user experiences</li>
+              <li>To build modern and meaningful web products</li>
+              <li>To improve through real-world projects</li>
+              <li>To grow into a stronger frontend developer</li>
+              <li>To turn ideas into practical digital solutions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label">Skills</p>
+          <h2>Tech Stack & Tools</h2>
+          <p>
+            Technologies and tools I use to build responsive and user-focused web applications.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card glass reveal">HTML5</div>
+          <div class="skill-card glass reveal">CSS3</div>
+          <div class="skill-card glass reveal">JavaScript</div>
+          <div class="skill-card glass reveal">React</div>
+          <div class="skill-card glass reveal">Bootstrap</div>
+          <div class="skill-card glass reveal">Tailwind CSS</div>
+          <div class="skill-card glass reveal">Git</div>
+          <div class="skill-card glass reveal">GitHub</div>
+          <div class="skill-card glass reveal">VS Code</div>
+          <div class="skill-card glass reveal">Figma</div>
+          <div class="skill-card glass reveal">Responsive Design</div>
+          <div class="skill-card glass reveal">UI Implementation</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label">Services</p>
+          <h2>What I Do</h2>
+          <p>
+            I focus on building clean, modern, and effective web experiences that are designed for real users.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card glass reveal">
+            <h3>
+              <i class="fas fa-code"></i>
+              Frontend Development
+            </h3>
+
+            <p>
+              Building modern and interactive user interfaces using clean and maintainable code.
+            </p>
+          </div>
+
+          <div class="service-card glass reveal">
+            <h3>
+              <i class="fas fa-mobile-screen-button"></i>
+              Responsive Web Design
+            </h3>
+
+            <p>
+              Creating layouts that work smoothly across desktop, tablet, and mobile devices.
+            </p>
+          </div>
+
+          <div class="service-card glass reveal">
+            <h3>
+              <i class="fas fa-pencil-ruler"></i>
+              UI Implementation
+            </h3>
+
+            <p>
+              Turning ideas and designs into polished, user-friendly web interfaces.
+            </p>
+          </div>
+
+          <div class="service-card glass reveal">
+            <h3>
+              <i class="fas fa-gauge-high"></i>
+              Website Optimization
+            </h3>
+
+            <p>
+              Improving structure, usability, and performance for a better browsing experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label">Projects</p>
+          <h2>Featured Projects</h2>
+          <p>
+            A selection of projects that reflect my interest in clean interfaces,
+            practical development, and modern web technologies.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card glass reveal">
+            <span class="project-tag">Featured</span>
+
+            <h3>E-Commerce Platform</h3>
+
+            <p>
+              A modern full-stack e-commerce application designed with usability,
+              scalability, and a smooth shopping experience in mind.
+            </p>
+
+            <ul>
+              <li>Real-time inventory management</li>
+              <li>Payment integration support</li>
+              <li>Product-focused interface design</li>
+              <li>Structured application architecture</li>
+            </ul>
+
+            <p class="stack">
+              <strong>Tech Stack:</strong>
+              React, Node.js, MongoDB, Redis, AWS
+            </p>
+
+            <a
+              href="https://github.com/Moe-KyawAung/ecommerce"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              View Project →
+            </a>
+          </article>
+
+          <article class="project-card glass reveal delay-1">
+            <span class="project-tag">Featured</span>
+
+            <h3>AI-Powered Analytics Dashboard</h3>
+
+            <p>
+              A data-driven dashboard designed to present insights clearly through
+              interactive visualizations and reporting features.
+            </p>
+
+            <ul>
+              <li>Real-time data visualization</li>
+              <li>Analytics-oriented dashboard workflow</li>
+              <li>Automated report generation</li>
+              <li>Interactive and clean UI design</li>
+            </ul>
+
+            <p class="stack">
+              <strong>Tech Stack:</strong>
+              Python, FastAPI, React, PostgreSQL, Docker
+            </p>
+
+            <a
+              href="https://github.com/Moe-KyawAung/analytics-dashboard"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              View Project →
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label">Education</p>
+          <h2>Education</h2>
+          <p>My academic background and formal study path.</p>
+        </div>
+
+        <div class="timeline-card glass reveal">
+          <h3>Bachelor of Computer Science</h3>
+          <p>
+            <strong>University of Computer Studies, Yangon</strong>
+          </p>
+          <p>2014 - 2018</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="certificates" class="section section-alt">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label">Certificates</p>
+          <h2>Certifications</h2>
+          <p>
+            Courses and certifications that support my technical learning journey.
+          </p>
+        </div>
+
+        <div class="certificate-grid">
+          <div class="certificate-card glass reveal">
+            C Programming Certification Course
+          </div>
+
+          <div class="certificate-card glass reveal">
+            Computer Vision using Python
+          </div>
+
+          <div class="certificate-card glass reveal">
+            Cyber Security Certification Course
+          </div>
+
+          <div class="certificate-card glass reveal">
+            CSS Certification Course
+          </div>
+
+          <div class="certificate-card glass reveal">
+            Growth Hacking Certification Course
+          </div>
+
+          <div class="certificate-card glass reveal">
+            Google Shopping Ads Certification Course
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GITHUB -->
+    <section id="github" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label">GitHub</p>
+          <h2>GitHub Activity</h2>
+          <p>
+            A quick overview of my GitHub contributions and coding activity.
+          </p>
+        </div>
+
+        <div class="github-grid">
+          <div class="github-card glass reveal">
+            <h3>GitHub Stats</h3>
+
+            <img
+              src="https://github-readme-stats.vercel.app/api?username=Moe-KyawAung&show_icons=true&theme=tokyonight&hide_border=true"
+              alt="GitHub Stats"
+            />
+          </div>
+
+          <div class="github-card glass reveal delay-1">
+            <h3>Top Languages</h3>
+
+            <img
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moe-KyawAung&layout=compact&theme=tokyonight&hide_border=true"
+              alt="Top Languages"
+            />
+          </div>
+        </div>
+
+        <div class="github-wide glass reveal">
+          <h3>Contribution Graph</h3>
+
+          <img
+            src="https://github-readme-activity-graph.vercel.app/graph?username=Moe-KyawAung&theme=tokyo-night"
+            alt="GitHub Contribution Graph"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label">Contact</p>
+          <h2>Let's Connect</h2>
+          <p>
+            If you'd like to connect, collaborate, or discuss an opportunity,
+            feel free to reach out.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info glass reveal">
+            <h3>Contact Information</h3>
+
+            <p>
+              <strong><i class="fas fa-user"></i> Name:</strong>
+              MOE KYAW AUNG (မိုးကျော်အောင်)
+            </p>
+
+            <p>
+              <strong><i class="fas fa-briefcase"></i> Role:</strong>
+              Frontend Developer | Web Developer
+            </p>
+
+            <p>
+              <strong><i class="fas fa-envelope"></i> Email:</strong>
+              <a href="mailto:moekyawaung@techie.com">
+                moekyawaung@techie.com
+              </a>
+            </p>
+
+            <p>
+              <strong><i class="fab fa-linkedin"></i> LinkedIn:</strong>
+              <a
+                href="https://linkedin.com/in/moekyawaung"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                linkedin.com/in/moekyawaung
+              </a>
+            </p>
+          </div>
+
+          <form
+            class="contact-form glass reveal delay-1"
+            action="https://formspree.io/f/yourFormId"
+            method="POST"
+          >
+            <h3>Send a Message</h3>
+
+            <label for="name">Name</label>
+            <input
+              id="name"
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+
+            <label for="email">Email</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Your Message"
+              required
+            ></textarea>
+
+            <button type="submit" class="btn btn-primary">
+              <i class="fas fa-paper-plane"></i>
+              Send Message
+            </button>
+
+            <p class="form-note">
+              Replace the Formspree URL with your real endpoint before deployment.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>
+        Designed and developed by MOE KYAW AUNG (မိုးကျော်အောင်).
+      </p>
+
+      <div class="footer-links">
+        <a
+          href="https://linkedin.com/in/moekyawaung"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-linkedin"></i>
+          LinkedIn
+        </a>
+
+        <a href="mailto:moekyawaung@techie.com">
+          <i class="fas fa-envelope"></i>
+          Email
+        </a>
+
+        <a
+          href="https://github.com/Moe-KyawAung"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-github"></i>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
